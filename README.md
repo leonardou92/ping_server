@@ -2,11 +2,11 @@
 
 Este proyecto consiste en un simple monitor de estado de direcciones IP utilizando Node.js, Socket.IO, y Ping. Proporciona una interfaz web que muestra el estado actual de las direcciones IP especificadas en tiempo real.
 
-## Requisitos
+# Requisitos
 
 Asegúrate de tener Node.js y npm instalados en tu sistema antes de ejecutar este proyecto.
 
-## Instalación
+# Instalación
 
 1. Clona este repositorio:
 
