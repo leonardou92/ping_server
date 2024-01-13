@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabla de estado de IP</title>
+</head>
+<body>
+  <table id="ipStatusTable">
+    <thead>
+      <tr>
+        <th>IP</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    const ws = new WebSocket('ws://localhost:3000');
+
+    ws.onmessage = function(event) {
+      const { ip, status } = JSON.parse(event.data);
+      const table = document.getElementById('ipStatusTable');
+      const tbody = table.getElementsByTagName('tbody')[0];
+      const newRow = tbody.insertRow();
+      const ipCell = newRow.insertCell();
+      const statusCell = newRow.insertCell();
+
+      ipCell.textContent = ip;
+      statusCell.textContent = status;
+    };
+  </script>
+</body>
+</html>

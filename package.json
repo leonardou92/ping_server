@@ -1,0 +1,19 @@
+{
+  "name": "ping_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "node-notifier": "^10.0.1",
+    "ping": "^0.4.4",
+    "socket.io": "^4.6.1",
+    "speedtest-net": "^2.2.0"
+  }
+}
