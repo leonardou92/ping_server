@@ -14,20 +14,19 @@ Asegúrate de tener Node.js y npm instalados en tu sistema antes de ejecutar est
 
        git clone https://github.com/leonardou92/ping_server.git
    
-Navega al directorio del proyecto:
+2. Navega al directorio del proyecto:
 
-    cd turepositorio
+       cd turepositorio
         
-Instala las dependencias:
+3. Instala las dependencias:
 
-    npm install
+       npm install
         
-Uso
-Inicia el servidor:
+4. Inicia el servidor:
 
-    node tuarchivo.js
+       node tuarchivo.js
         
-Abre tu navegador y visita http://localhost:3000 para ver el monitor de estado de IP en acción.
+5. Abre tu navegador y visita http://localhost:3000 para ver el monitor de estado de IP en acción.
 
 Funcionalidades
 Monitorea el estado de las direcciones IP especificadas.
