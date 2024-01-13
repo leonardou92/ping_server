@@ -16,7 +16,7 @@ Asegúrate de tener Node.js y npm instalados en tu sistema antes de ejecutar est
    
 2. Navega al directorio del proyecto:
 
-       cd turepositorio
+       cd ping_server
         
 3. Instala las dependencias:
 
@@ -24,7 +24,7 @@ Asegúrate de tener Node.js y npm instalados en tu sistema antes de ejecutar est
         
 4. Inicia el servidor:
 
-       node tuarchivo.js
+       node app.js
         
 5. Abre tu navegador y visita http://localhost:3000 para ver el monitor de estado de IP en acción.
 
@@ -35,8 +35,5 @@ Notificaciones en el navegador para estados "DOWN" de IP.
 Prueba de velocidad de conexión usando la API de Speedtest (opcional).
 Contribuir
 Si encuentras algún problema o tienes mejoras que sugerir, por favor, abre un problema o envía una solicitud de extracción.
-
-Licencia
-Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
 
 Este es solo un ejemplo básico, puedes personalizarlo según las necesidades específicas de tu proyecto. Además, si tu proyecto tiene más características o configuraciones, asegúrate de proporcionar la documentación necesaria en el README.
